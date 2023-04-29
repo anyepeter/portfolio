@@ -1,9 +1,27 @@
-
+import { navData } from "../data/navbarData";
+import { MenuIcon, XIcon } from '@heroicons/react/outline';
+import logo from '../assets/logo.jpg';
 const Navbar = () => {
+    
     return(
-        <>
-        <h1> How are you </h1>
-        </>
+        <header>
+        <nav>
+            <div>
+                <img src={logo} />
+            </div>
+            <MenuIcon />
+            <XIcon />
+            <ul>
+                {
+                  navData.map(item => {
+                    return(
+                        <li><a href={item.path}>{item.name}</a></li>
+                    )
+                  })
+                }
+            </ul>
+        </nav>
+        </header>
     )
 }
 
