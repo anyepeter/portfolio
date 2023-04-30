@@ -1,4 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700;800;900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-black{
+    background-color: #0e131f;
+}
+
+.h-inherit{
+    height: inherit;
+}
+
+.logo{
+    width: 9rem;
+}
+
+.hamberlinks-1,
+.hamberlinks-2,
+.hamberlinks-3{
+    height: 3px;
+    width: inherit;
+    background-color: #fff;
+    transform: rotate(0deg);
+    position: absolute;
+    transition: 0.4s ease-in;
+    border-radius:30%;
+}
+
+.hamberlinks-2{
+    top: 2rem;
+}
+
+.hamberlinks-1{
+    top: 1.5rem;
+}
+
+.hamberlinks-3{
+    top:2.5rem;
+}
+
+.spin-1{
+    top: 2.1rem;
+    transform: rotate(135deg);
+}
+
+.spin-2{
+    top: 2.1rem;
+    transform: rotate(225deg);
+}
+
+.link-contsiner{
+    position: fixed;
+    background-color: #0e131f;
+    width: 100%;
+    height: 100vh;
+    top: -100%;
+    margin: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 15vh;
+    color: #fff;
+    transition: 0.3s ease-in;
+    margin-bottom: 2rem;
+
+}
+
+.active {
+    top: 0;
+    transition: 0.3s ease-out;
+}
+
+.links a{
+    font-size: 38px;
+    transition: ease-in-out 0.6s;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    text-transform: capitalize;
+    letter-spacing: 0.2rem;
+    
+}
+
+@media (min-width: 687px) {
+    body{
+        background-color: red;
+    }
+    
+}
