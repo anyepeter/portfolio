@@ -5,7 +5,7 @@ import './landingPage.css';
 
 const LandingPage = () => {
     return (
-        <section className="px-4 landing-container">
+        <section className="landing-container">
             <div className='flex mt-20 landing-section'>
             <div className="intro-container" >
                 <div className='flex flex-col gap-4 '>
@@ -29,12 +29,16 @@ const LandingPage = () => {
 
 </p>
 
-
                 </div>
             </div>
             <div>
                 <img src={hero} />
-
+                <ul className='flex gap-2'>
+                    <li><a><img src="" alt='ig' /></a></li>
+                    <li><a><img src="" alt='git' /></a></li>
+                    <li><a><img src="" alt='hash' /></a></li>
+                    <li><a><img src="" alt='twi' /></a></li>
+                </ul>
             </div>
             </div>
         </section>
