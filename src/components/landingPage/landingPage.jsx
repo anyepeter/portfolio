@@ -9,7 +9,7 @@ const LandingPage = () => {
             <div className='flex mt-20 landing-section'>
             <div className="intro-container" >
                 <div className='flex flex-col gap-4 '>
-                    <h2 className='text-3xl font-medium'>Peter Chendi</h2>
+                    <h2 className='font-medium greeting-text'>Peter Chendi</h2>
                     <AnimatePresence>
                    <motion.h1 className='text1'
                    initial={{ opacity: 0 }}
@@ -20,20 +20,19 @@ const LandingPage = () => {
                        </motion.h1>
                        </AnimatePresence>
                 </div>
-                <div>
-               <p className='text-xl leading-6'>Hello! 
-                 I can help you build a product, feature or website.
+                <div className='paraContainer'>
+               <p className='intro-greeting'>Hello! 
+                 I can fgtgtrhrthtrhtr help you build a product, feature or website.
                   Take a look at my works. If you like what you see 
                   and have a project you need coded, don't hesitate 
                   and contact me.
-
 </p>
 
                 </div>
             </div>
-            <div>
+            <div className='image-container'>
                 <img src={hero} />
-                <ul className='flex gap-2'>
+                <ul className='flex'>
                     <li><a><img src="" alt='ig' /></a></li>
                     <li><a><img src="" alt='git' /></a></li>
                     <li><a><img src="" alt='hash' /></a></li>
