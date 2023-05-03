@@ -1,0 +1,42 @@
+.projects {
+    width: 100%;
+    height: auto;
+    max-width: 1450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    padding-top: 2rem;
+    background-color: #fff;
+    gap: 2rem
+}
+
+.project-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.project-header h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    height: auto;
+    animation: gradient 5s ease infinite;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-position: center;
+}
+
+.project-header hr {
+    background-color: #e73c7e;
+    width: 100px;
+    height: 2px;
+    margin-top: 0.5rem;
+
+}
+
