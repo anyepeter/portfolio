@@ -46,7 +46,6 @@
     padding: 0.5rem;
     gap: 2rem;
     flex-direction: column;
-
 }
 
 .project-card{
@@ -122,4 +121,38 @@ padding: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media (min-width: 500px){
+    .projects {
+        padding: 10%;
+        padding-top: 10%;
+    }
+
+    .project-container{
+        gap: 5rem;
+    }
+}
+
+@media (min-width: 678px){
+    .projects {
+        padding: 15%;
+        padding-top: 10%;
+    }
+}
+
+@media (min-width: 800px){
+    .projects {
+        padding: 10%;
+        padding-top: 5%;
+    }
+
+    .card-info{
+        flex-direction: row;
+        height: 40vh;
+    }
+
+    .left-show{
+        flex-direction: row-reverse;
+    }
 }
