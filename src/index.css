@@ -90,9 +90,6 @@
 }
 
 @media (min-width: 687px) {
-    body{
-        background-color: red;
-    }
 
     .nav-bar{
         max-width: 1450px;
