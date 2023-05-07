@@ -7,11 +7,11 @@ const About = () => {
          <div className='about-section'>
          <div className='project-header'>
                 <hr />
-                <h2>About me</h2><hr /></div>
+                <h2>About</h2><hr /></div>
 
-            <div>
+            <div className='about-intro'>
                 <div><img src={logo}/></div>
-                <div>
+                <div className='about-para'>
                 <p>I can fgtgtrhrthtrhtr help you build a product, feature or website.
                   Take a look at my works. If you like what you see 
                   and have a project you need coded, don't hesitate 
@@ -28,9 +28,9 @@ const About = () => {
                   and contact me.</p>
                 </div>
             </div>
-            <div>
+            <div className='Skills-container'>
 
-                <div>
+                <div >
                     <h3>Language</h3>
                     <ul>
                         <li>JavaScript</li>
