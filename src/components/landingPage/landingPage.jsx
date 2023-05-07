@@ -1,5 +1,6 @@
 import { motion, AnimatePresence } from 'framer-motion';
-import hero from '../../assets/hero-image.png'
+import hero from '../../assets/hero-image.png';
+import gitlgo from '../../assets/gitlogo.png';
 import './landingPage.css';
 
 
@@ -31,9 +32,9 @@ const LandingPage = () => {
                 </div>
             </div>
             <div className='image-container'>
-                <img src={hero} />
+                <img className='hero-image' src={hero} />
                 <ul className='flex'>
-                    <li><a><img src="" alt='ig' /></a></li>
+                    <li><a><img src={gitlgo} alt='ig' /></a></li>
                     <li><a><img src="" alt='git' /></a></li>
                     <li><a><img src="" alt='hash' /></a></li>
                     <li><a><img src="" alt='twi' /></a></li>
