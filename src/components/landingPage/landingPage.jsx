@@ -25,11 +25,10 @@ const LandingPage = () => {
                        </AnimatePresence>
                 </div>
                 <div className='paraContainer'>
-               <p className='intro-greeting'>Hello! 
-                 I can fgtgtrhrthtrhtr help you build a product, feature or website.
-                  Take a look at my works. If you like what you see 
-                  and have a project you need coded, don't hesitate 
-                  and contact me.
+               <p className='intro-greeting'>Obsessed with building high-quality, Well organized, and maintainable web
+                applications that provide exceptional user experiences
+                using different languages and frameworks like Javascript, React, Redux, Ruby, 
+                Ruby on Rails, etc following the best code practices.
 </p>
 
                 </div>
