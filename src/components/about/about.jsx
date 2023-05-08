@@ -7,11 +7,11 @@ const About = () => {
          <div className='about-section'>
          <div className='project-header'>
                 <hr />
-                <h2>About me</h2><hr /></div>
+                <h2>About</h2><hr /></div>
 
-            <div>
-                <div><img src={logo}/></div>
-                <div>
+            <div className='about-intro'>
+                <div className='about-image-container'><img src="https://media.licdn.com/dms/image/D4E03AQH3biSVm49TBQ/profile-displayphoto-shrink_100_100/0/1671796666754?e=1689206400&v=beta&t=UU_Ogc1o4U3-YZLX-RCPCcLbW4ipmwmldRYccrBoJJo"/></div>
+                <div className='about-para'>
                 <p>I can fgtgtrhrthtrhtr help you build a product, feature or website.
                   Take a look at my works. If you like what you see 
                   and have a project you need coded, don't hesitate 
@@ -28,10 +28,10 @@ const About = () => {
                   and contact me.</p>
                 </div>
             </div>
-            <div>
-
-                <div>
-                    <h3>Language</h3>
+            <div className='Skills-container'>
+            <div className='skill-section'>
+                <div >
+                    <h3 className='skill-title'>Language</h3>
                     <ul>
                         <li>JavaScript</li>
                         <li>Ruby</li>
@@ -40,7 +40,7 @@ const About = () => {
                 </div>
 
                 <div>
-                    <h3>Frameworks</h3>
+                    <h3 className='skill-title'>Frameworks</h3>
                     <ul>
                         <li>React</li>
                         <li>Ruby on Rails</li>
@@ -49,13 +49,14 @@ const About = () => {
                 </div>
 
                 <div>
-                    <h3>Skills</h3>
+                    <h3 className='skill-title'>Skills</h3>
                     <ul>
-                        <li>JavaScript</li>
+                        <li>JavaScrttrhrhrthtrh</li>
                         <li>Ruby</li>
                         <li>PHP</li>
                     </ul>
                 </div>
+            </div>
             </div>
          </div>
         </section>
