@@ -1,0 +1,18 @@
+
+.about{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0e131f;
+    color: #fff;
+}
+
+.about-section{
+    width: min(100% - 2rem, 1450px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
