@@ -10,7 +10,7 @@ const Navbar = () => {
         setMenu(!menu)
     } 
     return(
-        <header className="h-16 w-full bg-black pl-2 pr-4 fixed flex items-center justify-center top-0" >
+        <header className="h-16 w-full bg-black pl-2 pr-4 fixed flex items-center justify-center top-0 z-10" >
         <nav className="h-inherit w-full flex justify-between items-center nav-bar">
             <div className="w-22">
                 <img className="w-20 logo" src={logo} />
