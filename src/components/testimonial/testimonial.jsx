@@ -1,3 +1,5 @@
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import {Pagination} from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import './testimonial.css';
@@ -5,9 +7,11 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 const Testimonial = () => {
-
+ AOS.init();
     return (
-        <section className="testimonials">
+        <section data-aos="fade-up"
+        data-aos-once="true"
+        data-aos-duration="2000" className="testimonials">
                       <div className='testimonial-header'>
                 <hr />
                 <h2>Testimonials</h2><hr /></div>  

@@ -1,9 +1,13 @@
-import logo from '../../assets/hero-image.png';
+import AOS from 'aos';
+import 'aos/dist/aos.css'
 import './about.css'
 
 const About = () => {
+    AOS.init()
     return (
-        <section id="about" className='about'>
+        <section data-aos="zoom-in"
+        data-aos-once="true"
+        id="about" className='about'>
          <div className='about-section'>
          <div className='project-header'>
                 <hr />

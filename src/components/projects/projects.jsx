@@ -1,8 +1,30 @@
 import AOS from 'aos';
-import hero from '../../assets/hero-image.png';
+import 'aos/dist/aos.css'
 import './projects.css';
 
 const Project = () => {
+    AOS.init({
+        // Global settings:
+        disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+        startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+        initClassName: 'aos-init', // class applied after initialization
+        animatedClassName: 'aos-animate', // class applied on animation
+        useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+        disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+        debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+        throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+        
+      
+        // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+        offset: 200, // offset (in px) from the original trigger point
+        delay: 2, // values from 0 to 3000, with step 50ms
+        duration: 400, // values from 0 to 3000, with step 50ms
+        easing: 'ease', // default easing for AOS animations
+        once: false, // whether animation should happen only once - while scrolling down
+        mirror: false, // whether elements should animate out while scrolling past them
+        anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+      
+      });
     return (
         <section className='projects' id="projects">
             <div className='about-section'>
@@ -12,7 +34,7 @@ const Project = () => {
          <div className='project-container'>
 
 
-            <div className="project-card"> 
+            <div data-aos="fade-up-right" className="project-card"> 
                 <div className='card-info'>
                     <div className='image-card-container'><img src="https://media.licdn.com/dms/image/C4E2DAQGtvJcLuCIPzQ/profile-treasury-image-shrink_800_800/0/1672965610499?e=1684141200&v=beta&t=E-Ts893Ets6Zqd0KiKFCJaA0CMERjfij_d5nMwov7s0"/></div>
                     <div className='para-container'>
@@ -38,7 +60,7 @@ const Project = () => {
             </div>
 
 
-            <div className="project-card"> 
+            <div data-aos="fade-up-left" className="project-card"> 
                 <div className='card-info left-show'>
                     <div className='image-card-container'><img src="https://media.licdn.com/dms/image/C4E2DAQHHSqvJL2t6lQ/profile-treasury-image-shrink_800_800/0/1672964953168?e=1684141200&v=beta&t=l8JDifUP54_Xel-F70yyEDcEvq26deNOzel0Yi_axTk"/></div>
                     <div className='para-container'>
@@ -63,7 +85,7 @@ const Project = () => {
             </div>
 
 
-            <div className="project-card"> 
+            <div data-aos="fade-up-right" className="project-card"> 
                 <div className='card-info'>
                     <div className='image-card-container'><img src="https://media.licdn.com/dms/image/C4E2DAQGwpaFertiVoA/profile-treasury-image-shrink_800_800/0/1672970507211?e=1684141200&v=beta&t=h3aMduv3NADAYRqpNq4YPcBRRAROr8aUhqqgv0Dv-o0" /></div>
                     <div className='para-container'>
@@ -90,7 +112,7 @@ const Project = () => {
             </div>
 
 
-            <div className="project-card"> 
+            <div data-aos="fade-up-left" className="project-card"> 
                 <div className='card-info left-show'>
                     <div className='image-card-container'><img src="https://media.licdn.com/dms/image/C4E2DAQHqzZAQmxqI9g/profile-treasury-image-shrink_1920_1920/0/1672964365389?e=1684141200&v=beta&t=rlKsrvIRXXrC8n_bWXsKnjBwE5p5A4J0KP85ThXqw7w"/></div>
                     <div className='para-container'>
@@ -102,10 +124,10 @@ const Project = () => {
 
                   <div className='buit-with'>
                   <ul>
-                    <li>HTMl</li>
-                    <li>CCSS</li>
-                    <li>HTMl</li>
-                    <li>CCSS</li>
+                  <li>CSS</li>
+                    <li>REACT</li>
+                    <li>REDUX</li>
+                    <li>JAVASCRIPT</li>
                   </ul>
                   </div>
                         <ul className='container-button'>
