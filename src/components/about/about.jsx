@@ -51,9 +51,9 @@ const About = () => {
                 <div>
                     <h3 className='skill-title'>Skills</h3>
                     <ul>
-                        <li>JavaScrttrhrhrthtrh</li>
-                        <li>Ruby</li>
-                        <li>PHP</li>
+                        <li>Pair-programming</li>
+                        <li>Colaboration</li>
+                        <li>Communication</li>
                     </ul>
                 </div>
             </div>
