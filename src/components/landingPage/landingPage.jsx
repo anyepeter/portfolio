@@ -36,10 +36,14 @@ const LandingPage = () => {
             <div className='image-container'>
                 <img className='hero-image' src={hero} />
                 <ul className='social-container'>
-                    <li><a><img src={gitlgo} className='social-link' alt='ig' /></a></li>
-                    <li><a><img src={hashnode} className='social-link' alt='git' /></a></li>
-                    <li><a><img src={twitter} className='social-link' alt='hash' /></a></li>
-                    <li><a><img src={linkedin} className='social-link' alt='twi' /></a></li>
+                    <li><a href='https://github.com/anyepeter' target='_blank'>
+                        <img src={gitlgo} className='social-link' alt='ig' /></a></li>
+                    <li><a href='https://apcode.hashnode.dev/' target='_blank'>
+                        <img src={hashnode} className='social-link' alt='git' /></a></li>
+                    <li><a href='https://twitter.com/anye_peter' target='_blank'>
+                        <img src={twitter} className='social-link' alt='hash' /></a></li>
+                    <li><a href='https://www.linkedin.com/in/peter-chendi/' target='_blank'>
+                        <img src={linkedin} className='social-link' alt='twi' /></a></li>
                 </ul>
             </div>
             </div>
