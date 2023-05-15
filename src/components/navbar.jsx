@@ -10,11 +10,11 @@ const Navbar = () => {
         setMenu(!menu)
     } 
     return(
-        <header className="h-16 w-full bg-black pl-2 pr-4 fixed flex items-center justify-center top-0" >
+        <header className="h-16 w-full bg-black pl-2 pr-4 fixed flex items-center justify-center top-0 z-10" >
         <nav className="h-inherit w-full flex justify-between items-center nav-bar">
-            <div className="w-22">
+            <a href="#" className="w-22">
                 <img className="w-20 logo" src={logo} />
-            </div>
+            </a>
             <div className="h-inherit flex justify-center items-center z-10 mobile-menu">
             <div onClick={handleToggle} className="h-10 w-8 flex flex-col gap-y-2 hambeger"> 
                 <span  className={menu ? "hamberlinks-1 spin-1" : "hamberlinks-1"}></span>
