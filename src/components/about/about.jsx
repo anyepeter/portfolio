@@ -1,7 +1,6 @@
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 import './about.css'
-
 const About = () => {
     AOS.init()
     return (
@@ -66,5 +65,4 @@ const About = () => {
         </section>
     )
 }
-
 export default About;
