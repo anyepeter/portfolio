@@ -57,18 +57,15 @@
 .greeting-text{
     font-size: 2rem;
 }
-
 .image-container{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2rem;
 }
-
 .hero-image{
     width: min(100% - 3rem, 600px);
     }
-
 .social-container{
     display: flex;
     gap: 3rem;
